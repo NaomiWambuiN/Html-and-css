@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navbar</title>
+
+<style>
+    body{
+        background-image: url(/images/download.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+          
+    }
+#mynav{
+    background-color: rgb(24, 24, 233);
+    height: 80px;
+    border-radius: 4px;
+
+    display: flex;                 /* Make nav a flex container */
+    justify-content: space-between; /* Push left and right apart */
+    align-items: center;           /* aligns all items verically at the center*/
+    padding: 0 30px;
+}
+
+/*Left side (logo + heading) */
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-section img{
+    height: 55px;
+    border: 2px solid rgba(255, 255, 0, 0.87);
+    border-radius: 6px;
+}
+
+.logo-section h1{
+    color: white;
+    font-size: 18px;
+}
+
+/* Right side nav items */
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    color: white;
+}
+
+.nav-links li{
+    cursor: pointer;
+}
+#myfooter ul{
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 20px;
+
+
+}
+.details{
+          display: grid;
+  /* Creates 3 equal columns */
+          grid-template-columns: 1fr 1fr 1fr; 
+  
+  /* Adds space between the grid items */
+          gap: 15px; 
+}
+.details-item{
+            background-color: #007bff;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            font-size: 24px;
+            border-radius: 8px;
+         }
+.details-item:hover{
+         opacity:0.75;
+
+}
+
+</style>
+<link rel="icon" type="image/png" href="/images/Becky-designstyle-smoothie-m.png" width="35px" height="35px">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+
+<nav id="mynav">
+<!-- This is an example of my navbar that i have styled using flex display together with aligh items and justify content -->
+    <!-- LEFT -->
+    <div class="logo-section">
+        <img src="/images/Becky-designstyle-smoothie-m.png" alt="logo">
+        <h1>Becky Enterprise.</h1>
+    </div>
+
+    <!-- RIGHT -->
+    <ul class="nav-links">
+        <li>Home</li>
+        <li>About</li>
+        <li>Testimonials</li>
+        <li>Contact me</li>
+    </ul>
+
+</nav>
+<hr>
+<section class="details">
+    <div class="details-item">
+<h1>About Myself</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias eos architecto praesentium fugiat. Tenetur quae fugiat, nesciunt mollitia beatae quas. Nam sed, veritatis minima libero ipsum et. Optio, tempora.</p>
+    </div>
+    <div class="details-item">
+        <h2>My Education Background</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident odit asperiores tempora odio maxime quae blanditiis neque nostrum qui, quos inventore natus accusantium aliquam esse, eius, animi ut exercitationem?</p>
+    </div>
+    <div class="details-item">
+        <h2>My proffessional background</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus iusto veritatis, eum praesentium, sunt facilis unde iure mollitia iste saepe exercitationem ex sed vero ipsa! Ea id provident est corrupti!</p>
+    </div>
+    <div class="details-item">
+        <h2>My Achievements</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid molestiae quos beatae. Ab modi provident repellendus ducimus exercitationem repellat iste fuga architecto officiis. Architecto, pariatur reprehenderit impedit vitae necessitatibus assumenda?</p>
+    </div>
+    <div class="details-item">
+        <h2>My Newsletter</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sit distinctio perferendis qui aliquam rem soluta placeat beatae iste, tempore, officiis itaque quos vitae ab, ullam ut repellendus dicta odio?</p>
+        <button><a href="newsletter.html">Subscribe to my newsletter</a></button>
+    </div>
+    <div class="details-item">
+        <h2>Summary</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nemo cupiditate est obcaecati ipsa modi, commodi molestiae at perspiciatis voluptas ex. Corrupti, modi neque. Numquam saepe deserunt vel corrupti libero?</p>
+
+    </div>
+    
+
+</section>
+
+
+<footer id="myfooter">
+    <ul >
+        <li><a href="https://www.instagram.com/?hl=en"><i class='bx bxl-instagram'></i></a>INSTAGRAM</li>
+        <li><a href="https://web.whatsapp.com/"><i class='bx bxl-whatsapp' ></i></a>WHATSAPP</li>
+        <li><a href="https://www.tiktok.com/login"><i class='bx bxl-tiktok' ></i></a>TIKTOK</li>
+        <li><a href="https://www.facebook.com/"><i class='bx bxl-facebook' ></i></a>FACEBOOK</li>
+    </ul>
+</footer>
+ <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+</html>

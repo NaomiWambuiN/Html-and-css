@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .elements{ 
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Sales Report</legend>
+            <label for="customername">Customername</label><br>
+            <input type="text" name="customername"><br>
+            <label for="product">Product</label><br>
+         <!-- checkbox -->
+            <input type="checkbox" id="product" value="Shoes">
+            <label for="shoes" value="shoes" id="product">Shoes</label>
+            <input type="checkbox" id="product" value="dress">
+            <label for="dress" id="product">Dress</label>
+             <input type="checkbox" id="product" value="hoodie">
+            <label for="hoodie" id="product">Hoodie</label>
+            <input type="checkbox" id="product" value="pajamas">
+            <label for="pajamas" id="product">Pajamas</label><br>
+            
+          <!-- input radios -->
+
+            <label for="quantity">Quantity</label><br>
+            <input type="text"name="quantity"><br>
+
+            <label for="day">Day</label><br>
+            <input type="radio"name="first">
+            <label for="Monday">Monday</label>
+            <input type="radio"name="second">
+            <label for="Tuesday" name="day">Tuesday</label>
+            <input type="radio" name="day">
+            <label for="Wednesday">Wednesday</label>
+            <input type="radio" name="day">
+            <label for="Thursday">Thursday</label>
+            <input type="radio" name="day">
+            <label for="Friday">Friday</label>
+            <input type="radio" name="day">
+            <label for="Saturday">Saturday</label><br>
+            <!-- use of textareas  -->
+
+             <label for="agent">Agent comments</label><br>
+             <textarea name="agent comment" id="agent comment" rows="5" cols="30"></textarea>
+             
+             <input type="submit" value="Submit">
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mycontainer{
+             width:100%;
+            overflow:auto;
+        }
+        /* .mycontainer div{
+            width:33%;
+            float:left;
+        } */
+         .mycontainer h1{
+            font-size: 30px;
+            margin: auto;
+
+         }
+         .mycontainer div{
+            width: 30%;
+            display: inline-block;
+         }
+         .job1{
+            background-color:aqua;
+            border:2px solid black;
+            border-radius:10px;
+            
+         }
+         .job1:hover{
+            border: 3px dotted black;
+            opacity:0.7;
+         }
+         
+          .job2{
+            background-color:rgb(183, 0, 255);
+            border:2px solid black;
+            border-radius:10px;
+            
+         }
+          .job2:hover{
+            border: 3px dotted black;
+            opacity:0.7;
+         }
+          .job3{
+            background-color:rgb(98, 0, 255);
+            border:2px solid black;
+            border-radius:10px;
+            
+         }
+          .job3:hover{
+            border: 3px dotted black;
+            opacity:0.7;
+         }
+         .mygrid {
+          display: grid;
+  /* Creates 3 equal columns */
+          grid-template-columns: 1fr 1fr 1fr; 
+  
+  /* Adds space between the grid items */
+          gap: 15px; 
+         }
+         .mygrid-item{
+            background-color: #007bff;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            font-size: 24px;
+            border-radius: 8px;
+         }
+
+
+         
+    </style>
+</head>
+<body>
+    <!-- Education background -->
+     <!-- Or work Experience -->
+      <!-- i have styled these divs inline block so that they appear side by side to each other -->
+
+     <section class="mycontainer">
+        <h1>My Work <span>Experience</span> </h1>
+        <hr>
+    <div class="job1" >
+        <h2>Job 1</h2>
+        <h4>Technical Trainer</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi repudiandae eligendi error fugiat reprehenderit alias pariatur obcaecati saepe dolorem? Dicta impedit, suscipit consectetur officiis minus obcaecati iure mollitia nesciunt. Nobis.</p>
+    </div>
+    <div class="job2">
+        <h2>Job 2</h2>
+        <h4>Software Engineer</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores laborum inventore rerum eaque, numquam quam iste quasi error ducimus adipisci. Delectus eius explicabo rem deleniti magnam consequatur assumenda dolorum ratione!</p>
+    </div>
+    <div class="job3">
+        <h2>Job 3</h2>
+        <h4>Juniour data analyst</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe modi quia libero quo laudantium, labore illum corporis iste, facilis temporibus porro! Totam incidunt debitis, quidem commodi voluptate atque dicta quaerat!</p>
+    </div>
+    </section>
+    <!-- Levels of Education  -->
+     <!-- styled in display grid  -->
+    <section class="mygrid">
+        <div class="mygrid-item">
+            <h1>Lower Primary</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic suscipit amet unde consequatur error sequi, expedita nulla, vel eos cumque aperiam excepturi necessitatibus, dolor obcaecati fugiat odio facilis perspiciatis fugit.</p>
+        </div>
+        <div class="mygrid-item">
+            <h1>Upper Primary</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque adipisci error accusamus, perferendis fugiat eligendi tempora quibusdam asperiores aliquid sunt voluptate inventore nam ea, provident ipsam! Molestias ducimus reiciendis totam.</p>
+        </div>
+        <div class="mygrid-item">
+            <h1>Juniour Secondary</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sit, neque unde ut provident accusamus consectetur laudantium asperiores earum, totam eaque reprehenderit doloribus ratione aliquid nam obcaecati nobis maiores incidunt?</p>
+        </div>
+        <div class="mygrid-item">
+            <h1>Seniour Secondary</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, mollitia. Amet est rerum a laboriosam quasi itaque enim debitis, similique nesciunt incidunt eaque alias dignissimos excepturi ex sit architecto quas?</p>
+        </div>
+        <div class="mygrid-item">
+            <h1>University</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolorum provident nulla corrupti cumque quibusdam vel debitis, possimus suscipit adipisci et, quisquam consectetur. Accusantium dolorem repellendus officiis perspiciatis molestiae culpa.</p>
+        </div>
+        <div class="mygrid-item">
+            <h1>Colledge</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis eveniet corrupti porro consequuntur vitae adipisci voluptatum at quam, a tempora, qui nobis deserunt impedit autem modi cupiditate magni sapiente ullam!</p>
+        </div>
+    </section>
+    <!-- unstyled divs (no style is applied to them ) -->
+    <section>
+        <div>
+            <h1>Unstyled div 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur, eius eaque laboriosam numquam tempore reprehenderit enim eligendi, architecto commodi tenetur nesciunt minus dignissimos similique! Mollitia adipisci qui alias dolore.</p>
+        </div>
+        <div>
+            <h1>Unstyled div 2</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita autem explicabo quis odit quos ratione maxime numquam, quisquam vel sunt ea error nostrum inventore ex, aut, facere quas. Amet, saepe!</p>
+        </div>
+        <div>
+            <h1>Unstyled div 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores nemo magni doloribus id. Similique, itaque vero alias facilis incidunt quis. Vel, eveniet! Accusamus pariatur error, obcaecati architecto minima doloremque.</p>
+        </div>
+    </section>
+</body>
+</html>

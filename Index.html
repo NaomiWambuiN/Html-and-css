@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+<link rel="icon" type="image/png" href="/images/Becky-designstyle-smoothie-m.png" width="35px" height="35px">
+  <style>
+    /* 1. Default Light Mode Styles */
+    body {
+      background-color: white;
+      color: black;
+      transition: background-color 0.3s ease; /* Makes the change smooth! */
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+    }
+
+    #moon-icon {
+      font-size: 40px;
+      color: black; 
+      position: absolute; /* Takes the icon out of the normal document flow */
+    top: 10px;          /* 20 pixels from the top edge */
+    right: 0px;        /* 20 pixels from the right edge */
+    
+    }
+
+    /* 2. Dark Mode Styles */
+    /* When the body has the class "dark-theme", these rules apply */
+    body.dark-theme {
+      background-color: black;
+      color: white;
+    }
+
+    body.dark-theme #moon-icon {
+      color: white;
+    }
+    #mode-button {
+    margin-left:auto;
+    top: auto;
+    padding: 0px;
+    display: absolute;
+}
+.nav{
+    display: block;
+    top: auto;
+}
+  </style>
+</head>
+<body>
+<div class="nav"> 
+     <h1>MY <span>PORTFOLIO</span></h1>
+</div>
+  <div id="moon-icon">🌙
+      <button id="mode-button">Mode</button>
+  </div>
+
+  
+  <script src="index.js"></script>
+</body>
+</html>
