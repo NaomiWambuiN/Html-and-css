@@ -23,6 +23,20 @@
        .indented{
         text-indent: 70px;
        }
+       .justifyy ul{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        list-style-type: lower-alpha;
+        
+       }
+       .justifyy ul li{
+        text-decoration: 2px dotted black;
+       }
+       .justifiedtext{
+        text-align: justify;
+       }
+
     </style>
 </head>
 <body>
@@ -30,6 +44,8 @@
     <h1>Text aligned Center</h1>
     <h2>Text aligned right</h2>
     <h3>Text aligned left</h3>
+    <h1 class="justifiedtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit atque error nostrum maiores, quaerat, id labore inventore laboriosam vitae, nesciunt officia recusandae! Veniam aspernatur architecto, consequuntur cumque debitis velit dignissimos.</h1>
+        
     <h4>h0<span class="chemical">2</span></h4>
     <h5></h5>
     
@@ -41,6 +57,15 @@
 
     <!-- indenting - this happens to the first line of the paragraph  -->
     <p class="indented">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime repellendus id dolores, officiis quod totam, ipsam asperiores nisi architecto nihil accusantium at cum nobis ea saepe, dicta rem nam quis.</p>
-
+     
+    <!-- justifying content  -->
+     <section class="justifyy">
+        <h1>Education Level</h1>
+        <ul>
+            <li>Primary School</li>
+            <li>High School</li>
+            <li>University</li>
+        </ul>
+     </section>
 </body>
 </html>
